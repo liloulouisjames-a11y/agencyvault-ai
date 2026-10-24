@@ -11,7 +11,7 @@
 EDGEONE: framework Other/Static, build command none, output dir ./ (index.html at root).
 
 ## v2 (24 Oct 2026)
-- Hero: cinematic gradient overlay (SolarVault: solar-panel photo from Louis's Drive, cropped to remove logo/text, WebP, no EXIF; AgencyVault: CSS gradient only)
+- Hero: cinematic gradient overlay (SolarVault: solar-panel photo from Louis's Drive, cropped to remove logo/text, WebP, no EXIF; AgencyVault: AI-generated workspace image (no people, no logos), WebP)
 - New sections: "Who it's for", "How it works" (3 steps)
 - Placeholders clearly labelled PLACEHOLDER (testimonials, result, guarantee)
 - SEO: canonical, OG + Twitter card with og.jpg (1200x630), SVG favicon
