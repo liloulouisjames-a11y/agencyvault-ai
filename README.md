@@ -9,6 +9,6 @@ Fully automated digital product landing page.
 2. Replace the placeholder URL in `index.html` with your live link.
 3. Configure digital delivery (Stripe email + secure link, or Gumroad handles it).
 4. For Mauritius: connect SBM merchant gateway for MUR payments.
-5. Deploy via the button above or import the repo in EdgeOne Pages (framework: Other / Static, no build command).
+5. Deploy via the button above or import in EdgeOne Pages: framework Other/Static, no build command, output dir ./.
 
 Instant checkout → instant download. Zero fulfillment.
