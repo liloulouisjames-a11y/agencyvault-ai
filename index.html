@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgencyVault AI | $47 Automation Toolkit for Agencies</title>
+  <meta name="description" content="Plug-and-play AI prompt kits, Notion OS, chatbot templates and content calendars. Instant digital delivery. Zero fulfillment.">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background:#0a0a0a; color:#fff; line-height:1.6; }
+    .hero { min-height:100vh; display:flex; align-items:center; justify-content:center; text-align:center; padding:2rem; background:linear-gradient(135deg,#000 0%,#111 100%); }
+    .container { max-width:1100px; margin:0 auto; padding:2rem; }
+    h1 { font-size:3.5rem; font-weight:800; margin-bottom:1rem; background:linear-gradient(90deg,#00f2fe,#4facfe); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+    .price { font-size:2.5rem; color:#00f2fe; margin:1rem 0; }
+    .cta { background:#00f2fe; color:#000; padding:1.2rem 2.5rem; border:none; border-radius:50px; font-size:1.2rem; font-weight:700; cursor:pointer; text-decoration:none; display:inline-block; margin:1rem 0; transition:transform .2s; }
+    .cta:hover { transform:scale(1.05); }
+    .features { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:2rem; margin:3rem 0; }
+    .card { background:#111; padding:2rem; border-radius:12px; border:1px solid #222; }
+    .faq { max-width:800px; margin:3rem auto; }
+    details { background:#111; margin:1rem 0; padding:1rem; border-radius:8px; }
+    summary { cursor:pointer; font-weight:600; }
+    footer { text-align:center; padding:2rem; color:#666; }
+  </style>
+</head>
+<body>
+  <section class="hero">
+    <div>
+      <h1>AgencyVault AI</h1>
+      <p style="font-size:1.4rem; max-width:700px; margin:0 auto 1rem;">The fully automated $47 toolkit that scales agencies without adding hours. Instant download. Zero fulfillment labor.</p>
+      <div class="price">$47</div>
+      <a href="https://buy.stripe.com/replace-with-your-stripe-payment-link" class="cta" id="buyBtn">Get Instant Access →</a>
+      <p style="font-size:.9rem; color:#888; margin-top:.5rem;">Secure checkout • Instant digital delivery via email</p>
+    </div>
+  </section>
+
+  <div class="container">
+    <h2 style="text-align:center; font-size:2.5rem; margin:2rem 0;">What's Inside the Vault</h2>
+    <div class="features">
+      <div class="card"><h3>500+ AI Prompt Kits</h3><p>Ready-to-use prompts for ads, emails, proposals, and client deliverables.</p></div>
+      <div class="card"><h3>Notion Operating System</h3><p>Plug-and-play client management, project tracking, and SOPs.</p></div>
+      <div class="card"><h3>Chatbot Templates</h3><p>Automated customer service flows for WhatsApp, web, and email.</p></div>
+      <div class="card"><h3>90-Day Content Calendar</h3><p>Social media and email sequences that run on autopilot.</p></div>
+    </div>
+
+    <div style="text-align:center; margin:3rem 0;">
+      <a href="https://buy.stripe.com/replace-with-your-stripe-payment-link" class="cta">Claim Your Vault – $47</a>
+    </div>
+
+    <div class="faq">
+      <h2 style="text-align:center;">FAQ</h2>
+      <details><summary>How is delivery automated?</summary><p>Payment via Stripe (or SBM merchant gateway) triggers an instant email with secure download links. Zero manual work.</p></details>
+      <details><summary>Do I need technical skills?</summary><p>No. All assets are plug-and-play. Import into Notion, copy prompts, deploy chatbots.</p></details>
+      <details><summary>Can I sell this to clients?</summary><p>Yes. White-label ready for agencies.</p></details>
+      <details><summary>Payment methods?</summary><p>Global: Stripe / PayPal. Local Mauritius: SBM business merchant gateway (Visa/MC/MUR).</p></details>
+    </div>
+  </div>
+
+  <footer>
+    <p>AgencyVault AI • Fully automated digital product • Powered by EdgeOne</p>
+  </footer>
+
+  <script>
+    // Replace the href with your real Stripe Payment Link or Gumroad URL
+    // For SBM: integrate merchant gateway checkout URL
+    document.querySelectorAll('.cta').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        if (btn.href.includes('replace-with')) {
+          e.preventDefault();
+          alert('Replace the Stripe link in the HTML with your live Payment Link for full automation.');
+        }
+      });
+    });
+  </script>
+</body>
+</html>
